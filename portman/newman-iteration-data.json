@@ -1,0 +1,14 @@
+[
+  {
+    "resource_type": "web_pages"
+  },
+  {
+    "resource_type": "datasets"
+  },
+  {
+    "resource_type": "apis"
+  },
+  {
+    "resource_type": "notebooks"
+  }
+]

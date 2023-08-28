@@ -1,0 +1,8 @@
+local: 'app/api/v1/static/spec.yaml'
+baseUrl: 'http://127.0.0.1:8000/api/v1'
+output: 'portman/api_v1_collection.postman.json'
+portmanConfigFile: 'portman/portman-config.yaml'
+includeTests: true
+runNewman: true
+newmanRunOptions:
+  iteration-data: 'portman/newman-iteration-data.json'

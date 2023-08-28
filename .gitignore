@@ -7,10 +7,13 @@ __pycache__/
 
 build/
 dist/
+node_modules/
+tmp/
 venv/
 *.egg-info/
 
 app/db.sqlite3
+portman/api_v1_collection.postman.json
 
 .idea/
 

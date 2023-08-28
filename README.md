@@ -4,10 +4,18 @@
 
 ### Initial setup
 
+Create virtualenv and install Python packages
+
 ```shell
 virtualenv venv
 . venv/bin/activate
 pip install -r ./app/requirements.txt
+```
+
+Install npm packages
+
+```shell
+npm ci
 ```
 
 ### Run development server
@@ -39,6 +47,16 @@ python fixtures/load_fixtures.py
 while read env; do export $env; done < .env.dev
 python app/manage.py runserver
 ```
+
+### Run tests
+
+API tests are generated and run with [Portman](http://getportman.com).
+To get started:
+
+```shell
+npx portman --cliOptionsFile portman/portman-cli.yaml
+```
+
 
 ## License
 
