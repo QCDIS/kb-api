@@ -1,0 +1,16 @@
+.*.swp
+*~
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+build/
+dist/
+venv/
+*.egg-info/
+
+app/db.sqlite3
+
+.idea/
+
