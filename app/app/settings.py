@@ -114,10 +114,16 @@ USE_I18N = True
 
 USE_TZ = True
 
+# Base path
+
+BASE_PATH = os.environ.get('BASE_PATH', '').strip('/')
+
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
+if BASE_PATH:
+    STATIC_URL = f'{BASE_PATH}/static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field

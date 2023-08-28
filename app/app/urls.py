@@ -16,8 +16,16 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
+from django.views.generic.base import RedirectView
+
+from .settings import BASE_PATH
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('api.urls'))
+    path('api/', include('api.urls')),
     ]
+
+if BASE_PATH:
+    urlpatterns = [
+        path(f'{BASE_PATH}/', include(urlpatterns)),
+        ]
