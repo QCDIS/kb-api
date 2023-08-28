@@ -4,15 +4,14 @@
 
 ### Initial setup
 
-Create virtualenv and install Python packages
+Create virtualenv and install Python packages:
 
 ```shell
 virtualenv venv
-. venv/bin/activate
-pip install -r ./app/requirements.txt
+venv/bin/pip install -r ./app/requirements.txt
 ```
 
-Install npm packages
+Install npm packages:
 
 ```shell
 npm ci
@@ -20,11 +19,9 @@ npm ci
 
 ### Run development server
 
-#### Elasticsearch
+Start Elasticsearch:
 
-Start server
-
-```bash
+```shell
 docker run --rm \
   -e "discovery.type=single-node" \
   -e "xpack.security.http.ssl.enabled=false" \
@@ -33,14 +30,13 @@ docker run --rm \
   docker.elastic.co/elasticsearch/elasticsearch:8.8.1
 ```
 
-Load fixtures
+Load fixtures (wait for Elasticsearch)
 
-```bash
-. venv/bin/activate
-python fixtures/load_fixtures.py
+```shell
+venv/bin/python fixtures/load_fixtures.py
 ```
 
-#### Django
+Start Django
 
 ```shell
 . venv/bin/activate
