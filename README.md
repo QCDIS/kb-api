@@ -12,7 +12,30 @@ pip install -r ./app/requirements.txt
 
 ### Run development server
 
+#### Elasticsearch
+
+Start server
+
+```bash
+docker run --rm \
+  -e "discovery.type=single-node" \
+  -e "xpack.security.http.ssl.enabled=false" \
+  -e "ELASTIC_PASSWORD=elastic" \
+  -p 9200:9200 \
+  docker.elastic.co/elasticsearch/elasticsearch:8.8.1
+```
+
+Load fixtures
+
+```bash
+. venv/bin/activate
+python fixtures/load_fixtures.py
+```
+
+#### Django
+
 ```shell
+. venv/bin/activate
 while read env; do export $env; done < .env.dev
 python app/manage.py runserver
 ```

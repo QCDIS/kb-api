@@ -1,3 +1,2 @@
-asgiref==3.7.2
-Django==4.2.4
-sqlparse==0.4.4
+Django~=4.2.4
+elasticsearch~=8.9.0

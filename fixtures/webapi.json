@@ -1,0 +1,3479 @@
+[
+  {
+    "name": [
+      "Clean Power Research Utility Rates and Bill Savings REST API v2.0"
+    ],
+    "description": [
+      " The Clean Power Research Utility Rates and Bill Savings API provides a way to perform detailed energy bill calculations. Get data about electric bill charges, energy usage, individual charges and more. This API supports HTTP GET and POST with JSON and may also support XML with certain requests. Access requires the utilization of Basic Authentication via username and password that are sent in the request header, and requests also need the use of HTTPS. Clean Power Research builds services for energy calculation, simulation, and automation."
+    ],
+    "url": [
+      "https://developers.cleanpower.com/utility-rates-bill-savings"
+    ],
+    "category": [
+      "Energy",
+      "Data",
+      "Energy",
+      "Environment"
+    ],
+    "provider": [
+      "Clean Power Research"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "https://developers.cleanpower.com/utility-rates-bill-savings/rest-basics"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://service.getpowerbill.com/api/v2"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Clean Power Research PowerClerk REST API v1.0"
+    ],
+    "description": [
+      " The PowerClerk API allows programmatic access to the following basic PowerClerk functions; project creation, editing, and submission. PowerClerk is a Distributed Energy Resource (DER) program management SaaS from Clean Power Research. Authorized access requires an API Key with user authentication that utilizes Basic Authentication. Clean Power Research builds services for energy transformation with cloud software to engage customers, automate programs, integrate solar and more."
+    ],
+    "url": [
+      "https://developers.cleanpower.com/application_process_automation/api-method-refe\u2026"
+    ],
+    "category": [
+      "Weather",
+      "Data",
+      "Energy",
+      "Environment",
+      "Solar"
+    ],
+    "provider": [
+      "Clean Power Research"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "https://developers.cleanpower.com/application_process_automation"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://api.powerclerk.com/Services.svc/v1"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "aircheckr REST API v1.5"
+    ],
+    "description": [
+      " aircheckr API provides hyper-local, near real-time air pollution information. It returns Air Quality Index (AQI) data from territories, cities, regions, at street level. Also get statistics of long term AQI for an area with this API. The aircheckr service calculates the outside air quality and measures Nitrogen Dioxide, Ozone and Particulate matter."
+    ],
+    "url": [
+      "https://www.aircheckr.com/developers"
+    ],
+    "category": [
+      "Environment",
+      "Climate",
+      "Weather"
+    ],
+    "provider": [
+      "AirCheckr",
+      "Nazka Maps"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "https://www.aircheckr.com/api_docs/"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://api.aircheckr.com/v1.5/"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Sensorist REST API"
+    ],
+    "description": [
+      " The Sensorist API allows developers to access information from environmental sensor systems programmatically. Sensorist builds and sells wireless sensor systems that can measure an environment's temperature, humidity, CO2 levels, and more. Users can explore their sensors' measurements using Sensorist's website or app, or they can build custom integrations with the API."
+    ],
+    "url": [
+      "https://api.sensorist.com/"
+    ],
+    "category": [
+      "Home Automation",
+      "Environment",
+      "Internet of Things"
+    ],
+    "provider": [
+      "Sensorist"
+    ],
+    "serviceType": [],
+    "documentation": [
+      "https://api.sensorist.com/"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://api.sensorist.com/v1"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Shadow RPC API"
+    ],
+    "description": [
+      " The service provides estimates of reduction of efficiency of solar energy installations due to shadows cast by terrain and other objects at a location. Estimates are based on data collected during the Shuttle Radar Topography Mission (SRTM), which created highly detailed images of surface topography. For a specified location, the service can project interference with solar irradiance by naturally occurring and constructed terrain features.\nAPI methods support submission of a location's coordinates to receive an estimate of the relief shadow effect on solar resources there. Shadow effect is stated as a percentage of the day that solar irradiance will be blocked. Methods also provide esimates of global horizontal irradiance and direct normal irradiance under clear-sky conditions."
+    ],
+    "url": [
+      "http://www.webservice-energy.org/web-services/w3c-web-services/shadow-w3c"
+    ],
+    "category": [
+      "Weather",
+      "Energy",
+      "Environment",
+      "Solar"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [
+      "http://www.webservice-energy.org/web-services/w3c-web-services/shadow-w3c"
+    ],
+    "architecturalStyle": [
+      "RPC"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "NCEP Forecast RPC API"
+    ],
+    "description": [
+      " The service provides aggregated 3-day weather forecasts for several surface measurements of meteorological conditions, including wind speed and direction, barometric pressure, temperature, relative humidity, and precipitation. It also provides forecasts of solar irradiance. Estimates are updated every 3 hours. The data come from the National Centers for Environmental Prediction, part of the U.S. National Oceanic and Atmospheric Administration (NOAA).\nAPI methods support designation of a location by latitude, longitude, and elevation along with the types of weather observations desired. The API returns aggregated forecasts for the specific meterological measures at the requested location."
+    ],
+    "url": [
+      "http://www.webservice-energy.org/web-services/w3c-web-services/ncep-forecast-w3c"
+    ],
+    "category": [
+      "Weather",
+      "Energy",
+      "Environment"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [
+      "http://www.webservice-energy.org/web-services/w3c-web-services/ncep-forecast-w3c"
+    ],
+    "architecturalStyle": [
+      "RPC"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "USFWS Geospatial Service REST API"
+    ],
+    "description": [
+      " The service from the U.S. Fish and Wildlife Service provides geospatial data about U.S. wildlife habitats, including fisheries. It supports integration of data about animal populations and habitats from human observers and remote sensing networks with geographic information systems (GIS), including global positioning system (GPS) references.\nAPI methods support ArcGIS format for creating, updating, and distributing geospatial data collected during implementation of the USFWS Operational Plan. Methods give access to data about wildlife with GIS and GPS identifiers to allow mapping of observations and integration with other resource mapping applications. Datasets identify and allow mapping of coastal resources and wetlands, critical habitats inland, ecosystem regions, Landscape Conservation Cooperatives (LCCs) and National Wildlife Refuges, migratory bird movements, and others."
+    ],
+    "url": [
+      "http://www.fws.gov/gis/data/national/index.html"
+    ],
+    "category": [
+      "Mapping",
+      "Animals",
+      "Environment",
+      "Fishing",
+      "Government",
+      "USA"
+    ],
+    "provider": [],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "http://www.fws.gov/gis/data/national/index.html"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "http://ecos.fws.gov/tat_services/TessQuery?request=schema"
+    ],
+    "sslSupprt": [
+      "No"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Autogrow REST API v1.0"
+    ],
+    "description": [
+      " The Autogrow REST API enables users to interact with Autogrow devices, retrieve Autogrow data, integrate third party devices and build web applications. This API is accessed over HTTPS with data that is sent and received in JSON format. It provides access to data from devices, user profile data and more. The Autogrow Lab is a collaborative environment for continued research and development of control systems for indoor agriculture, that focuses on blending tech and data, with plant science. Autogrow provides indoor growers with affordable, accessible and simple innovation solutions globally."
+    ],
+    "url": [
+      "https://lab.autogrow.com/docs/en/api.html"
+    ],
+    "category": [
+      "Agriculture",
+      "Environment",
+      "Internet of Things",
+      "Science"
+    ],
+    "provider": [
+      "Autogrow"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "https://lab.autogrow.com/docs/en/intro.html"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://api.autogrow.com/v1"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Earth911 Search REST API v1"
+    ],
+    "description": [
+      " Earth911 specializes in providing people across the country with useful and accessible recycling information. Among other site features, they also boast the largest and most accurate recycling directory in the U.S. The Earth911 Search API enables developers to add the ability to search this directory to any website, mobile application, or phone number. The API uses REST calls issued in JSON format."
+    ],
+    "url": [
+      "http://api.earth911.com/"
+    ],
+    "category": [
+      "Search",
+      "Environment",
+      "Sustainability"
+    ],
+    "provider": [
+      "Earth911"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "http://api.earth911.com/"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "http://api.earth911.com/"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "EPA Environmental Dataset Gateway REST API"
+    ],
+    "description": [
+      " The service provides access to a number of datasets containing recorded levels of environmental variables measured and tracked by the U.S. Environmental Protection Agency. A number of datasets document various monitoring programs over time tracking pollutants and environmental conditions affecting air quality, water quality, and land-borne contaminants. EPA staff and contractors can access both current and historical data via the service, built as an instance of ESRI Geoportal Server.\nAPI methods support listing of available datasets and selection of desired data based on location and conditions of interest to a researcher. Methods also support retrieval of desired datasets in formats suitable for further analysis."
+    ],
+    "url": [
+      "http://iaspub.epa.gov/sor_internet/registry/reusereg/searchandretrieve/details.d\u2026"
+    ],
+    "category": [
+      "Science",
+      "Environment"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://edg.epa.gov/metadata/catalog/components/components.page#"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Fruitmap REST API"
+    ],
+    "description": [
+      " Fruitmap is a user generated map of various types of fruit trees around the world. Anyone can easily mark the location of a tree on the site's map. Fruitmap exposes its data through a simple API. The API is able to deliver general data on all of the site's trees by type, as well as the location of all trees of a given type."
+    ],
+    "url": [
+      "http://www.fruitmap.sk/api"
+    ],
+    "category": [
+      "Mapping",
+      "Science",
+      "Environment",
+      "Classification"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [
+      "http://www.fruitmap.sk/api"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "http://fruitmap.sk/api/"
+    ],
+    "sslSupprt": [
+      "No"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Iowa Environmental Mesonet RadMap REST API"
+    ],
+    "description": [
+      " The Iowa Environmental Mesonet (IEM) collects and makes available environmental data from a network of independent members. The IEM produces several products to display their data, including the RadMap API. The RadMap dynamically generates a PNG image based on a given set of HTTP parameters."
+    ],
+    "url": [
+      "http://mesonet.agron.iastate.edu/GIS/radmap_api.phtml"
+    ],
+    "category": [
+      "Weather",
+      "Mapping",
+      "Environment"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [
+      "http://mesonet.agron.iastate.edu/GIS/radmap_api.phtml"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "http://mesonet.agron.iastate.edu/GIS/"
+    ],
+    "sslSupprt": [],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Predix Pedestrian Planning REST API v1"
+    ],
+    "description": [
+      " The Pedestrian Planning API offers metadata obtained from intelligent lighting sensors located along public roadways, and parking lots. Information returned by this API includes volume counts by region. This REST API returns data in JSON format, and uses OAuth 2 and Tokens for authentication. Predix is an industrial software platform developed by General Electric Digital which aims to improve asset performance management (APM), operations, and business."
+    ],
+    "url": [
+      "https://www.predix.io/services/service.html?id=1766"
+    ],
+    "category": [
+      "Cities",
+      "Environment",
+      "Parking"
+    ],
+    "provider": [
+      "General Electric"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "http://currentbyge.github.io/GE_Current_Documentation/"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://ie-pedestrian.run.aws-usw02-pr.ice.predix.io"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Clean Power Research Solar Simulations REST API v2.0"
+    ],
+    "description": [
+      " Clean Power Research builds services for energy calculation, simulation, and automation. The Clean Power Research Solar Simulations API provides access to irradiance and weather data. All Solar Simulation API methods support XML. The API can simulate PV output to receive AC energy production, Plane Of Array Irradiance (POAI), solid and liquid precipitation, and more."
+    ],
+    "url": [
+      "https://developers.cleanpower.com/solar-simulations"
+    ],
+    "category": [
+      "Solar",
+      "Data",
+      "Energy",
+      "Environment"
+    ],
+    "provider": [
+      "Clean Power Research"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "https://developers.cleanpower.com/solar-simulations/rest-basics"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "http://service.solaranywhere.com/api/v2"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Meteomatics Weather REST API v3.0"
+    ],
+    "description": [
+      " The Meteomatics Weather API provides access to historical, current, and forecast weather data for locations around the world, including model data and observational data in both time series and areal formats. Historical data goes back as far as 1979. Many response formats are supported, including CSV, JSON, XML, and GeoTIFF.\nDevelopers can try the API free for two weeks before applying for paid access."
+    ],
+    "url": [
+      "https://api.meteomatics.com"
+    ],
+    "category": [
+      "Weather",
+      "Environment",
+      "Geography"
+    ],
+    "provider": [
+      "Meteomatics"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "https://api.meteomatics.com"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://api.meteomatics.com"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "AASHE STARS REST API"
+    ],
+    "description": [
+      " STARS is a program of AASHE, the Association for the Advancement of Sustainability in Higher Education. STARS, the Sustainability Tracking, Assessment, and Rating System, is a self-reporting framework for colleges and universities in the United States or Canada to measure and track their sustainability performance.\nThe STARS API exposes three resources: Institutional metadata, reports, and the STARS technical manual. This is a REST API that currently only accepts GET requests."
+    ],
+    "url": [
+      "http://stars-api-documentation.readthedocs.org/en/latest/"
+    ],
+    "category": [
+      "Education",
+      "Sustainability",
+      "Environment"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [
+      "http://stars-api-documentation.readthedocs.org/en/latest/"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://stars.aashe.org/api/0.1/"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Webservice-Energy RPC API"
+    ],
+    "description": [
+      " The service, developed through the EU-funded MESoR project, provides data and applications to encourage uses and management of renewable energy resources. It provides information about applications of solar and wind energy, along with forecasts of effectiveness over a system's life cycle. Its goal is to link users to information and encourage sharing and interaction around energy conservation.\nAPI methods support estimation by location of solar irradience and shadow effects from several different sources. Methods also forecast availability of hydro power resources and weather events with likely effects on renewable energy use."
+    ],
+    "url": [
+      "http://www.webservice-energy.org/web-services/w3c-web-services"
+    ],
+    "category": [
+      "Education",
+      "Energy",
+      "Environment"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [
+      "http://www.webservice-energy.org/web-services/w3c-web-services"
+    ],
+    "architecturalStyle": [
+      "RPC"
+    ],
+    "endpointUrl": [
+      "http://soap.webservice-energy.org/"
+    ],
+    "sslSupprt": [],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Ecolabel Index REST API"
+    ],
+    "description": [
+      " Ecolabel Index is a global directory of ecolabels (such as Audubon International or Energy Star). Ecolabel Index also provides a RESTful API allowing developers to access the Ecolabel Index database. Available methods allow developers to list all published ecolabels or to get details about a particular label."
+    ],
+    "url": [
+      "http://www.ecolabelindex.com/developers/api/"
+    ],
+    "category": [
+      "Reference",
+      "Environment",
+      "Sustainability"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [
+      "http://www.ecolabelindex.com/developers/api/"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "http://www.ecolabelindex.com/services/rest/"
+    ],
+    "sslSupprt": [],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "NSW Motor Vehicle Reporting App RPC API"
+    ],
+    "description": [
+      " The government of New South Wales (NSW) in Australia is developing an application for reporting various types of vehicular pollution. These include littering, excessive noise, and smoke emission. The Motor Vehicle Reporting App API provides programmatic access to the app's functions via SOAP calls."
+    ],
+    "url": [
+      "http://www.environment.nsw.gov.au/pollution/ReportToEPA.htm"
+    ],
+    "category": [
+      "Government",
+      "Auto",
+      "Environment",
+      "Environment"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [
+      "http://www.environment.nsw.gov.au/pollution/ReportToEPA.htm"
+    ],
+    "architecturalStyle": [
+      "RPC"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Landcare Research Information Service REST API"
+    ],
+    "description": [
+      " The service provides a map-based interface to access data about environmental conditions in New Zealand. The provider maintains a repository of scientific datasets reporting measures of water and air quality, pollution, biosphere health, and other environmental conditions, and the service employs the Koordinates format to make the data available in a machine-processable interface with geolocation and mapping coordinates.\nIt supports direct queries to retrieve data directly along with mapping and spatial analyses via geographic information systems (GIS).\nAPI methods support Web Feature Service (OGC WFS) protocols to create vector layers for import into GIS and other mapping applications. Methods also integrate with other New Zealand mapping functions providing topographic data, forestation and land-cover data, and other conditions."
+    ],
+    "url": [
+      "https://lris.scinfo.org.nz/p/api-support-wfs/"
+    ],
+    "category": [
+      "Mapping",
+      "Environment"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [
+      "https://lris.scinfo.org.nz/p/api-support-wfs/"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "http://wfs.lris.scinfo.org.nz/{YOUR-WEB-SERVICE-KEY}/wfs"
+    ],
+    "sslSupprt": [
+      "No"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Clean Power Estimator RPC API"
+    ],
+    "description": [
+      " The service provides a tool for estimating cost savings and environmental benefits from renewable energy system installations. It is available both via a customizable web interface and a SOAP API. It accepts inputs such as the location of a proposed system and its likely performance parameters such as technologies employed, specific models and numbers of equipment to be used, and similar project specifications.\nAPI methods support analysis of project characteristics to generate estimates of economic benefits and environmental improvements. Specifications to be input include equipment, quantities, and costs as well as other relevant estimates such as natural gas prices, electric service rates, weather data source, and financing details. The API generates summaries of system cost and financial performance, expected utility bills and system cash flow, and power load along with reduction in emissions from conventional electricity generation."
+    ],
+    "url": [
+      "http://www.cleanpower.com/products/powerclerk/powerclerk-api/"
+    ],
+    "category": [
+      "Weather",
+      "Energy",
+      "Environment"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [
+      "http://www.cleanpower.com/products/powerclerk/powerclerk-api/"
+    ],
+    "architecturalStyle": [
+      "RPC"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Powershop REST API"
+    ],
+    "description": [
+      " The service provides information about electrical power consumption and access to electrical service from multiple providers within New Zealand, in areas where options are available to consumers. Information supplied helps users monitor their power use and understand provider options for both residential and business customers. In this way, the service promotes conservation and conscious choice among electricity suppliers.\nAPI methods support retrieval of customer account information, including electrical meter readings. Provider service information is also available, with offer pricing for available service providers."
+    ],
+    "url": [
+      "http://www.powershop.co.nz/developers-api/"
+    ],
+    "category": [
+      "Other",
+      "Energy",
+      "Environment"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://secure.powershop.co.nz/external_api/v1/"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "MaConDa RPC API"
+    ],
+    "description": [
+      " The service provides access to the Mass spectrometry Contaminant Database which aggregates research reports for chemical composition of environmental contaminant molecules. It gathers data from experimental results and theoretical projections developed both by researchers in the field and instrument providers in testing their mass spectrometers. Contaminant records are annotated with metadata describing compounds.\nAPI methods support search against the database of approximately 300 records, specifying contaminant type and ion structure of detected molecules, as well as type and specific model of mass spectrometry instruments performing the analysis."
+    ],
+    "url": [
+      "http://www.maconda.bham.ac.uk/api.php"
+    ],
+    "category": [
+      "Science",
+      "Environment"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [],
+    "architecturalStyle": [
+      "RPC"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [
+      "No"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "NSW Office of Water Hydstra RPC API"
+    ],
+    "description": [
+      " The NSW Office of Water manages an extensive water monitoring system that provides vital data such as flow levels, volume, and quality. Data is stored in the NSW's implementation of the Hydstra water database. Hydstra is a time-series data management system that provides tools for building and maintaining time-series data archives. The NSW Office of Water's water data is available through the website or via the Hydstra API."
+    ],
+    "url": [
+      "http://realtimedata.water.nsw.gov.au/cgi/webhyd.pl?soapws_show_header"
+    ],
+    "category": [
+      "Government",
+      "Environment",
+      "Water"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [],
+    "architecturalStyle": [
+      "RPC"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Clean Power Research Irradiance and Weather Data REST API v2.0"
+    ],
+    "description": [
+      " The Clean Power Research Irradiance and Weather Data API allows users to request irradiance (the rate at which solar energy falls onto a surface) and weather data. The WeatherData endpoint returns available data such as Global Horizontal Irradiance, Direct Normal Irradiance, Diffuse Horizontal Irradiance, 10-Meter Height Wind Speed and many others. This API supports HTTP GET and POST with XML data and access that requires the utilization of Basic Authentication via username and password, and requests also need the use of HTTPS. Clean Power Research builds services for energy calculation, simulation, and automation."
+    ],
+    "url": [
+      "https://developers.cleanpower.com/irradiance-and-weather-data"
+    ],
+    "category": [
+      "Weather",
+      "Data",
+      "Energy",
+      "Environment",
+      "Solar"
+    ],
+    "provider": [
+      "Clean Power Research"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "https://developers.cleanpower.com/irradiance-and-weather-data/rest-basics"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://service.solaranywhere.com/api/v2"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Ambience Data REST API v1.0"
+    ],
+    "description": [
+      " The Ambience Data API provides real-time, hyperlocal, weather data and pollution data globally. It allows users access to detailed and accurate real-time or historical pollution data and weather forecasts with a simple REST API. This includes; Pollution, Weather and Hourly Forecast data for; a three-day forecast that returns the geocode weather for the current day up to three days, a forty eight-hourly forecast that returns the geocode weather for the current hour up to the next forty eight hours etc. Ambience Data provides an environmental sensor agnostic end-to-end IoT platform that supports smart sensors, monitoring, data analytics and more."
+    ],
+    "url": [
+      "https://www.ambiencedata.com/api"
+    ],
+    "category": [
+      "Data",
+      "Environment",
+      "Weather"
+    ],
+    "provider": [
+      "Ambience Data"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "http://apis.ambiencedata.com"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "http://apis.ambiencedata.com/api"
+    ],
+    "sslSupprt": [
+      "No"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "MyRadar Weather and Nowcasting REST API v0.99"
+    ],
+    "description": [
+      " The MyRadar Weather and Nowcasting API offers its in-house industry-leading nowcasting support, including up-to-the-minute rain prediction using our patent-pending algorithms. It is also a drop-in replacement for the former Dark Sky API.\nInterested developers should contact "
+    ],
+    "url": [
+      "http://myradar.com"
+    ],
+    "category": [
+      "Weather",
+      "Environment"
+    ],
+    "provider": [
+      "Acme Atron-o-matic"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "https://myradar.com/"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "http://myradar.com"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Environmental Life Cycle Impact Assessment RPC API"
+    ],
+    "description": [
+      " The service from the Center for Energy and Processes (CEP) in France provides estimates of environmental impact of photovoltaic (PV) technologies over their complete life cycles. It assesses impact of PV solar electricity technologies and installations based on a number of established computation methods. Calculations of cost and benefit over the life of an installation help to guide decision-making and justify the investment.\nAPI methods support estimates of photovoltaic technology performance both at a geographic point on a map and within a defined area of interest (AOI). Life cycle cost and benefit are then estimated from the Ecoinvent database. Mapping data comply with the Open Geospatial Consortium (OGC) protocol."
+    ],
+    "url": [
+      "http://www.webservice-energy.org/web-services/ogc-web-services/environmental-lca\u2026"
+    ],
+    "category": [
+      "Weather",
+      "Energy",
+      "Environment"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [
+      "http://www.webservice-energy.org/web-services/ogc-web-services/environmental-lca-ogc-wps"
+    ],
+    "architecturalStyle": [
+      "RPC"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Nike Materials Sustainability REST API"
+    ],
+    "description": [
+      " Nike's Better World initiative looks at how Nike promotes sustainability practices as well as the benefits of sports around the world. As part of this initiative, Nike has a Materials Sustainability Index (MSI). The MSI is a tool used to help product teams select environmentally better footwear and apparel materials from better suppliers. The index's scoring system evaluates the environmental impacts of materials used in products using a combination of materials-specific data. It tracks impacts such as Chemistry, Energy and Greenhouse Gas Intensity, Water and Land Use Intensity, and Waste. The API provides access to data such as listing of materials, matching materials, material search via keyword and more. It uses RESTful calls and responses are formatted in JSON or HTML."
+    ],
+    "url": [
+      "http://nikemsiapi.nikebetterworld.com/"
+    ],
+    "category": [
+      "Tools",
+      "Environment",
+      "Sustainability"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "http://nikemsiapi.nikebetterworld.com/"
+    ],
+    "sslSupprt": [],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "SRTM RPC API"
+    ],
+    "description": [
+      " The service provides a Digital Elevation Model (DEM) build from data representing terrain features as detected by the Shuttle Radar Tomography Mission (SRTM). Elevation affects the efficiency of solar energy collection, including photovoltaic (PV) electricity production. By modeling terrain features and elevation, the service helps to improve accuracy of estimates of solar energy production at a location.\nAPI methods support specification of an area of interest (AOI), either a bounding box defined by mapped coordinates or a single location. Methods return high-accuracy elevation data for use in solar energy production estimates."
+    ],
+    "url": [
+      "http://www.webservice-energy.org/web-services/w3c-web-services/srtm-w3c"
+    ],
+    "category": [
+      "Weather",
+      "Energy",
+      "Environment",
+      "Solar"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [
+      "http://www.webservice-energy.org/web-services/w3c-web-services/srtm-w3c"
+    ],
+    "architecturalStyle": [
+      "RPC"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "USDA NASS Quick Stats REST API v1"
+    ],
+    "description": [
+      " The National Agricultural Statistics Service (NASS) Quick Stats is an on-line database containing official published aggregate estimates related to U.S. agricultural production. NASS develops these estimates from data collected through:"
+    ],
+    "url": [
+      "https://www.quickstats.nass.usda.gov/api"
+    ],
+    "category": [
+      "Agriculture",
+      "Animals",
+      "Data",
+      "Environment",
+      "Food",
+      "Government",
+      "Statistics"
+    ],
+    "provider": [
+      "USDA"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "https://www.quickstats.nass.usda.gov/api"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "http://quickstats.nass.usda.gov/api/"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "City of Calgary Historical Air Quality REST API v2.1"
+    ],
+    "description": [
+      " The City of Calgary Historical Air Quality API retrieves historical air quality data collected by the Calgary Region Airshed Zone and submitted to Alberta Environment and Parks (AEP). In addition to air quality monitoring data, an Air Quality Health Index (AQHI) is calculated hourly at certain monitoring stations, providing a number from 1 to 10+ that indicates the relative health risk associated with local air quality."
+    ],
+    "url": [
+      "https://dev.socrata.com/foundry/data.calgary.ca/uqjm-jxgp"
+    ],
+    "category": [
+      "Cities",
+      "Canadian",
+      "Environment"
+    ],
+    "provider": [
+      "The City of Calgary"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "https://dev.socrata.com/foundry/data.calgary.ca/uqjm-jxgp"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://data.cityofchicago.org/resource/ydr8-5enu.json?"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "NatureServe Explorer REST API v1.1.2"
+    ],
+    "description": [
+      " The NatureServe API provides access to NatureServe's information about more than 100,000 rare and endangered species and ecosystems in the Americas which are published on NatureServe Explorer. JSON formats are available to perform HTTP requests and receive HTTP responses. Overview of search services include species taxonomy, scientific taxonomy, ecosystems taxonomy, status, and location. NatureServe is a non-profit consortium of biodiversity scientists that works with 100 network organizations and over 1,000 conservation scientists to collect, analyze, and standardize biodiversity data."
+    ],
+    "url": [
+      "https://explorer.natureserve.org/api-docs/"
+    ],
+    "category": [
+      "Science",
+      "Data",
+      "Education",
+      "Environment",
+      "Nature",
+      "Sustainability"
+    ],
+    "provider": [
+      "NatureServe"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "https://explorer.natureserve.org/api-docs/"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://explorer.natureserve.org/api/"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "US DOE Buildings Performance Database REST API"
+    ],
+    "description": [
+      " The Office of Energy Efficiency and Renewable Energy of the United States Department of Energy provides this API to share aggregate statistical information about energy performance on hundreds of thousands of commercial and residential buildings in the U.S. This API can be used to create your own applications and visualizations, and to estimate EUI, or energy use intensity, for buildings. EUI is measured in energy use per square foot per year."
+    ],
+    "url": [
+      "https://bpd.lbl.gov/developers/"
+    ],
+    "category": [
+      "Government",
+      "Design",
+      "Energy",
+      "Environment"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [
+      "https://bpd.lbl.gov/developers/"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://bpd.lbl.gov/api/v1"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "SOLEMI RPC API"
+    ],
+    "description": [
+      " The Solar Energy Mining (SOLEMI) service provides measures of solar energy available at locations across Europe and Africa, along with selected parts of Asia, Australia, and South America. Measures of solar irradiance data are derived from images taken by Meteosat satellites over the period 1991-2005 for locations in Europe and Africa and 1999-2006 for Asian locations. Measures are available for hourly increments with a spatial resolution of 2.5 km.\nAPI methods support submission of a location and date range for which irradiance measures are desired. The API returns measures for global horizontal irradiance (GHI) and direct at normal incidence (DNI)."
+    ],
+    "url": [
+      "http://www.webservice-energy.org/web-services/w3c-web-services/solemi-w3c"
+    ],
+    "category": [
+      "Weather",
+      "Energy",
+      "Environment"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [
+      "http://www.webservice-energy.org/web-services/w3c-web-services/solemi-w3c"
+    ],
+    "architecturalStyle": [
+      "RPC"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Hydro1K RPC API"
+    ],
+    "description": [
+      " The service provides a digital model of terrain elevation and slope based on a database of terrain features compiled by the EU-funded MESoR project. Elevation and slope affect the efficiency of solar energy collection and electricity generation via photovoltaic (PV) power plants. In addition to the data service, a mapping function allows for interactive consideration of sites for solar power plants.\nAPI methods support designation of an area of interest as a mapped bounding box or specific location. Returned data provide mapping data to represent elevation, slope, and other topological features."
+    ],
+    "url": [
+      "http://www.webservice-energy.org/web-services/w3c-web-services/hydro1k-w3c"
+    ],
+    "category": [
+      "Weather",
+      "Energy",
+      "Environment",
+      "Solar"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [
+      "http://www.webservice-energy.org/web-services/w3c-web-services/hydro1k-w3c"
+    ],
+    "architecturalStyle": [
+      "RPC"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "NWCC Air and Water Database RPC API"
+    ],
+    "description": [
+      " The service is provided by the U.S. National Water and Climate Center (NWCC), a division of the U.S. Department of Agriculture. It gives access to the AWDB (air and water database) which documents measurements of soil, water, and climatic conditions. Datasets are compiled by automated systems for measuring snowpack and stations in the Soil Climate Analysis Network (SCAN). Other measurements of snow accumulation and available water supplies are also included, such as streamflow and reservoir levels.\nAPI methods support queries against the AWDB datasets. Specific methods give access to resources like the SNOTEL (SNOw TELemetry) climate service, more general indexes of climate conditions, National Weather Service COOP stations, 30-year normal levels for some measures, etc."
+    ],
+    "url": [
+      "http://www.wcc.nrcs.usda.gov/web_service/awdb_web_service_landing.htm"
+    ],
+    "category": [
+      "Weather",
+      "Science",
+      "Environment"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [
+      "http://www.wcc.nrcs.usda.gov/web_service/awdb_web_service_landing.htm"
+    ],
+    "architecturalStyle": [
+      "RPC"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [
+      "No"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "WiserEarth REST API"
+    ],
+    "description": [
+      " WiserEarth is a free online community space connecting people working toward a just and sustainable world. WiserEarth includes the largest international directory of NGOs (110,000 records). Organizations and communities worldwide are using WiserEarth groups to coordinate their efforts. The API offers access to organizations (except email addresses), solutions, groups (only the About Page metadata), resources, jobs, and events. Currently only Read access is available. Inquire about Write access."
+    ],
+    "url": [
+      "http://www.wiser.org/group/API"
+    ],
+    "category": [
+      "Other",
+      "Environment",
+      "Non-Profit",
+      "Social"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [
+      "http://www.wiser.org/group/API"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "http://www.wiserearth.org"
+    ],
+    "sslSupprt": [
+      "No"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "3TIER REST API"
+    ],
+    "description": [
+      " 3TIER's API enables you to integrate our scientifically derived, global wind and solar resource data into your own internal applications and customer experiences. You can use the API to build revenue-generating applications and mash-ups including: \u00bb Web-based lead generation programs \u00bb Internal and customer-facing sales tools \u00bb Product selection tools \u00bb Project design and financial modeling tools\nThe API accesses 3TIER's global data using simple REST calls. It is an open, standards based, XML programming interface. To make integration simple and quick, 3TIER provides detailed developer documentation, programming examples, and sample code.\nFor more information, please visit: [[http://www.3tier.com/en/package_detail/prospecting-wind-api/ www.3tier.com]]."
+    ],
+    "url": [
+      "http://www.3tier.com/en/package_detail/prospecting-wind-api/"
+    ],
+    "category": [
+      "Weather",
+      "Science",
+      "Energy",
+      "Sustainability",
+      "Environment"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [
+      "http://www.3tier.com/en/package_detail/prospecting-wind-api/"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "EPA Watershed Summary RPC API"
+    ],
+    "description": [
+      " The EPA's Watershed Summary API provides a summary of information for the types of data available within a given watershed, which is identified by an 8-digit HUC (Hydrologic Unit Code). This data includes which organizations have data, the number of stations, and result counts by characteristic type."
+    ],
+    "url": [
+      "http://www.epa.gov/storet/web_services.html"
+    ],
+    "category": [
+      "Science",
+      "Government",
+      "Environment",
+      "Water"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [
+      "http://www.epa.gov/storet/web_services.html"
+    ],
+    "architecturalStyle": [
+      "RPC"
+    ],
+    "endpointUrl": [
+      "http://gov.epa.storet.watershedsummary/WatershedSummaryService.wsdl"
+    ],
+    "sslSupprt": [],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "eHabitat WPS RPC API"
+    ],
+    "description": [
+      " The eHabitat Web Processing Service (WPS) is a web-based tool for assessing potential environmental changes due to anthropogenic activities, especially changes affecting protected areas. In particular, eHabitat's modeling services allow users to assess the likelihood of finding equivalent habitats either presently or in the future. Programmatic access to eHabitat WPS is available in the form of a SOAP-based API."
+    ],
+    "url": [
+      "http://ehabitat-wps.jrc.ec.europa.eu/"
+    ],
+    "category": [
+      "Science",
+      "Environment"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [],
+    "architecturalStyle": [
+      "RPC"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "U.K. Department for Environment Hydrology Data REST API v0.2.0"
+    ],
+    "description": [
+      " The Hydrology API provides access to historic water flow information in the U.K. Get data about monitoring stations, flood-monitoring, measures, readings, and more with the API."
+    ],
+    "url": [
+      "http://environment.data.gov.uk/hydrology/doc/reference#introduction"
+    ],
+    "category": [
+      "Water",
+      "England",
+      "Environment"
+    ],
+    "provider": [
+      "Crown"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "http://environment.data.gov.uk/hydrology/doc/reference"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "http://environment.data.gov.uk/hydrology/id/stations.json"
+    ],
+    "sslSupprt": [
+      "No"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "BreezoMeter Air Quality REST API v2"
+    ],
+    "description": [
+      " The BreezoMeter Air Quality API allows developers to request air quality information for a specified location (given in latitude and longitude coordinates) including indexes, pollutants, and health recommendations. Developers can request a location's current conditions, hourly forecast for up to four days, and hourly history going back up to 30 days.\nBreezoMeter provides global, real-time air quality data that can help individuals make better health decisions based on their local air pollution levels and their personal sensitivities."
+    ],
+    "url": [
+      "https://docs.breezometer.com/"
+    ],
+    "category": [
+      "Health",
+      "Environment",
+      "Fire",
+      "Location",
+      "Weather"
+    ],
+    "provider": [
+      "BreezoMeter"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "https://docs.breezometer.com/api-documentation/air-quality-api/v2/"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://api.breezometer.com/air-quality/v2/"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Air by Propeller Open REST API v1.0"
+    ],
+    "description": [
+      " The Air by Propeller Open API enables developers to use Propeller's asthma condition forecast in their own applications to find out the latest asthma conditions and air quality in your area. Use the Respiratory forecast resource to Get current asthma condition forecast for a geolocation and Get current asthma condition forecast for a bounded box geolocation. Propeller Health is an FDA cleared digital therapeutic that provides tools and services to better manage your asthma, COPD and respiratory disease."
+    ],
+    "url": [
+      "https://www.propellerhealth.com/air-by-propeller/"
+    ],
+    "category": [
+      "Health",
+      "Applications",
+      "Developers",
+      "Environment",
+      "Healthcare"
+    ],
+    "provider": [
+      "Propeller Health"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "http://forecastdocs.propellerhealth.com/swagger.html"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://open.propellerhealth.com/prod/"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "CoolClimate Calculator REST API"
+    ],
+    "description": [
+      " The CoolClimate Network, a division of UC Berkeley\u00e2\u20ac\u2122s Renewable and Appropriate Energy Laboratory, researches greenhouse gas emission and reduction, develops carbon management tools, and advocates voluntary carbon reduction for businesses and individuals.\nThe CoolClimate Calculator is a tool allowing U.S. households to calculate their carbon footprints, compare results, and receive personalized advice on reducing their carbon impact. The calculator is exposed through an API allowing 3rd party applications to compute carbon footprints given user-specified parameters."
+    ],
+    "url": [
+      "http://coolclimate.berkeley.edu/api"
+    ],
+    "category": [
+      "Science",
+      "Sustainability",
+      "Environment"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [
+      "http://coolclimate.berkeley.edu/api"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://apis-dev.berkeley.edu/coolclimate/"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "EnergyStar ABS RPC API"
+    ],
+    "description": [
+      " The free web service from the U.S. Environmental Protection Agency (EPA) promotes sharing of data on energy use and facility energy-consumption information. It interacts with EPA's Portfolio Manager software tool to help applications provide energy and building data as part of the Energy Star energy performance rating. This benchmarking supports development of environmental performance metrics.\nAPI methods support management of Energy Star rating status, updating of building and energy meter information, and retrieval of benchmarking data for local comparisons. Methods also support management of ABS program user account information."
+    ],
+    "url": [
+      "http://portfoliomanager.energystar.gov/webservices/home/api;jsessionid=B3D50EAD3\u2026"
+    ],
+    "category": [
+      "Government",
+      "Reference",
+      "Energy",
+      "Environment"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [
+      "http://portfoliomanager.energystar.gov/webservices/home/api;jsessionid=B3D50EAD3F0FCB10143381C506842912.beta-esws-dist-3"
+    ],
+    "architecturalStyle": [
+      "RPC"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [
+      "No"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "ThinkEco Unspecified API"
+    ],
+    "description": [
+      " ThinkEco is a green technology company that creates cost-effective energy efficiency solutions. They have a modlet, self-installable solution that enables device-level energy management to the home and office. Their cloud based software, that is accessed through the modlet, allows users to view energy use, costs, and savings. Additionally, the have a SmartAC dashboard to control electronics from any computer.\nThe ThinkEco API allows developers to integrate the modlet data with a building or energy management system. The API also allows for pulling of energy data and controlling modlets from your own system."
+    ],
+    "url": [
+      "http://www.thinkecoinc.com/"
+    ],
+    "category": [
+      "Science",
+      "Energy",
+      "Environment",
+      "Internet of Things"
+    ],
+    "provider": [],
+    "serviceType": [
+      "Unspecified"
+    ],
+    "documentation": [],
+    "architecturalStyle": [
+      "Unspecified"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [
+      "No"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "GeoGarage REST API v1.0"
+    ],
+    "description": [
+      " The GeoGarage API displays nautical charts for web and mobile. Services include interoperability with geospatial solutions, geo-referenced digital nautical charts processed in the GeoGarage Tiling Engine, and returns of nautical time zones in maritime areas.\nGeoGarage provides a business-to-business online mapping service with a new API that is already in use by different public and private-sector organizations. The Geogarage API plugs across all browsers and operating systems."
+    ],
+    "url": [
+      "https://www.geogarage.com/blog/news-1/post/geogarage-time-zone-api-31"
+    ],
+    "category": [
+      "Marine",
+      "Charts",
+      "Mapping",
+      "Platform-as-a-Service",
+      "Time",
+      "Water"
+    ],
+    "provider": [
+      "GeoGarage"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "https://www.geogarage.com/blog/news-1/post/geogarage-time-zone-api-31"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://geogarage.com/api/timezone/xml?location=Lat,Lon&amp;timestamp=time&amp;key=API_KEY"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "CORDC Nautical Charts Indirect API v3"
+    ],
+    "description": [
+      " The Nautical Charts indirect API by the University of California at San Diego displays NOAA Nautical Charts within Google Maps API v. 3. The Nautical Charts API provides map layering capabilities and gives developers access to the data. Functionality allows developers to manipulate map layering and access any geographical information they may need. The API is guided towards scientific research and oceanic mapping innovation. JavaScript SDK available."
+    ],
+    "url": [
+      "http://cordc.ucsd.edu/projects/charts/api/jsdoc/symbols/Panel.html"
+    ],
+    "category": [
+      "Mapping",
+      "Charts",
+      "Marine"
+    ],
+    "provider": [
+      "Regents of the University of California"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "http://cordc.ucsd.edu/projects/charts/api/jsdoc/symbols/Panel.html"
+    ],
+    "architecturalStyle": [
+      "Indirect"
+    ],
+    "endpointUrl": [
+      "http://cordc.ucsd.edu/projects/charts/api"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "MetOcean Forecast Data Time Series REST API v0.3"
+    ],
+    "description": [
+      " This MetOcean API provides access to MetOcean weather Forecast data such as sea surface temperature, visibility, wave height, period and direction of total sea state and swell, wind speed and direction. air temperature, and ocean surface currents. This REST API accepts location or a series of sites as query parameters to extract data from available models with data that is returned in CF-JSON format. MetOcean Solutions is a science-based consultancy that offers specialist numerical modeling and analytical services in meteorology and oceanography."
+    ],
+    "url": [
+      "https://www.metocean.co.nz/apis"
+    ],
+    "category": [
+      "Weather",
+      "Marine",
+      "Metadata",
+      "Science"
+    ],
+    "provider": [
+      "Meteorological Service of New Zealand"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "http://docs.forecast.metoceanapi.com"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://forecast.metoceanapi.com/v0"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "MetOcean Hindcast Statistics REST API v1.0.0"
+    ],
+    "description": [
+      " This MetOcean API provides access to 37 years of data about oceans, including frequency of wave height, period and direction for each month, frequency of wind speed and others. This REST API retrieves statistics from MetOcean for specific location sites and along routes, and returns data in CF-JSON format. MetOcean Solutions is a science-based consultancy that offers specialist numerical modeling and analytical services in meteorology and oceanography."
+    ],
+    "url": [
+      "https://www.metocean.co.nz/apis"
+    ],
+    "category": [
+      "Weather",
+      "Marine",
+      "Metadata",
+      "Science",
+      "Statistics"
+    ],
+    "provider": [
+      "Meteorological Service of New Zealand"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "http://docs.stats.metoceanapi.com"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://stats.metoceanapi.com/v1"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Advanced search"
+    ],
+    "description": [
+      "This api is a POST method and it returns all metadata of those resources that matched the specified search parameters. The possible input parameters for post method are: Code, title, subtitle, description, it is mandatory to enter at least one parameter. This api can be tested using the site https://reqbin.com/ or postman app. Select POST type of rest, insert the url in the dedicated text area, then select Content and choose FORM URL Encoded (application/x-www-form-urlencoded) in the drop down menu."
+    ],
+    "url": [
+      "https://trainingcatalogue.lifewatch.eu/site/api"
+    ],
+    "category": [
+      "Environment"
+    ],
+    "provider": [
+      "LifeWatch"
+    ],
+    "serviceType": [],
+    "documentation": [
+      "https://trainingcatalogue.lifewatch.eu/site/api"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://trainingcatalogue.lifewatch.eu/media/LifeWatch_ERIC_800x353.png"
+    ]
+  },
+  {
+    "name": [
+      "Detailed list"
+    ],
+    "description": [
+      "This api is a GET method and it returns the list of all active resources loaded into the catalogue, as the previous one, plus it also returns the fields of LOM. The input parameter format is optional and it permits to obtain the response as xml, if format = xml, or as json, if format =json. If format parameter is not used, the default response format is json. To test it copy and paste the url in a browser."
+    ],
+    "url": [
+      "https://trainingcatalogue.lifewatch.eu/site/api"
+    ],
+    "category": [
+      "Environment"
+    ],
+    "provider": [
+      "LifeWatch"
+    ],
+    "serviceType": [],
+    "documentation": [
+      "https://trainingcatalogue.lifewatch.eu/site/api"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://trainingcatalogue.lifewatch.eu/media/LifeWatch_ERIC_800x353.png"
+    ]
+  },
+  {
+    "name": [
+      "LOM definition"
+    ],
+    "description": [
+      "This api is a GET method and it returns the LOM structure at the time of the request. The input parameter format is optional and it permits to obtain the response as xml, if format = xml, or as json, if format =json. If format parameter is not used, the default response format is json. To test it copy and paste the url in a browser."
+    ],
+    "url": [
+      "https://trainingcatalogue.lifewatch.eu/site/api"
+    ],
+    "category": [
+      "Environment"
+    ],
+    "provider": [
+      "LifeWatch"
+    ],
+    "serviceType": [],
+    "documentation": [
+      "https://trainingcatalogue.lifewatch.eu/site/api"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://trainingcatalogue.lifewatch.eu/media/LifeWatch_ERIC_800x353.png"
+    ]
+  },
+  {
+    "name": [
+      "GeoNetwork Api Documentation"
+    ],
+    "description": [
+      "Learn how to access the catalog using the GeoNetwork REST API. Created by geonetwork@osgeo.org"
+    ],
+    "url": [
+      "https://www.aquacosm.eu/geonetwork/doc/api/#/"
+    ],
+    "category": [
+      "AQUACOSM"
+    ],
+    "provider": [
+      "LifeWatch"
+    ],
+    "serviceType": [],
+    "documentation": [
+      "https://www.aquacosm.eu/geonetwork/doc/api/#/"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      ""
+    ]
+  },
+  {
+    "name": [
+      "WSDOT Traveler Information WSF Terminals REST API"
+    ],
+    "description": [
+      " The WSDOT Traveler API's provides a single gateway to all of WSDOT's data. The Washington State Ferry Terminal data service includes; terminal conditions, wait times, locations and more. The Washington State Department of Transportation is the steward of a multimodal transportation system and responsible for ensuring that people and goods move safely and efficiently. In addition to building, maintaining, and operating the state highway system, WSDOT is responsible for the state ferry system, and works in partnership with others to maintain and improve local roads, railroads and airports, as well as to support alternatives to driving, such as public transportation, bicycles and pedestrian programs."
+    ],
+    "url": [
+      "http://www.wsdot.wa.gov/ferries/api/terminals/documentation/"
+    ],
+    "category": [
+      "Transportation",
+      "Data",
+      "Marine",
+      "Travel"
+    ],
+    "provider": [
+      "WSDOT"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "http://wsdot.wa.gov/traffic/api/Documentation/index.html"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "http://www.wsdot.wa.gov/Ferries/API/Terminals/rest/help"
+    ],
+    "sslSupprt": [
+      "No"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "California Coastal Commission Meeting Agendas REST API v1"
+    ],
+    "description": [
+      " The California Coastal Commission Meeting Agendas API can be consumed with GET requests that display JSON format in return. It provides data on the items being addressed by the Commission at each of its monthly meetings. Each agenda includes Spanish language translations, URLs to reports, and results."
+    ],
+    "url": [
+      "https://www.coastal.ca.gov/open-data/api-docs/"
+    ],
+    "category": [
+      "Marine"
+    ],
+    "provider": [
+      "State of California"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "https://www.coastal.ca.gov/open-data/api-docs/"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://api.coastal.ca.gov/agendas/v1/:year/:month"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "ODWeather REST API v1.0"
+    ],
+    "description": [
+      " The OceanDrivers (OD) ODWeather API offers weather data about the ocean including currents, wind and swell from, aemet, Ocib Bahia de Palma Buoy, Easy Wind and other weather stations. Data is provided for Yacht club and other usage. OceanDrivers provides ocean data software including real wind time information, ocean weather and real time current measurements."
+    ],
+    "url": [
+      "https://api.oceandrivers.com/"
+    ],
+    "category": [
+      "Weather",
+      "Boating",
+      "Marine"
+    ],
+    "provider": [
+      "OceanDrivers"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "https://api.oceandrivers.com/static/docs.html"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://api.oceandrivers.com/static/resources.json"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "i-Boating GPS Nautical Charts and Fishing Maps Native/Browser API"
+    ],
+    "description": [
+      " i-Boating is a provider of ENC (Electronic Navigation Charts), Bathymetric maps, & depth maps for inland waterways/lakes. The API allows browser applications to use ENCs as a base map for their browser applications in web applications. ENC maps can also be integrated into native app using their platform specific SDK. For protocol information, contact support@gpsnauticalcharts.com"
+    ],
+    "url": [
+      "http://fishing-app.gpsnauticalcharts.com"
+    ],
+    "category": [
+      "Mapping",
+      "Boating",
+      "Fishing",
+      "Marine",
+      "Water"
+    ],
+    "provider": [
+      "Bist"
+    ],
+    "serviceType": [
+      "Browser"
+    ],
+    "documentation": [
+      "http://fishing-app.gpsnauticalcharts.com"
+    ],
+    "architecturalStyle": [
+      "Native/Browser"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [
+      "No"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Dockwa OnWater REST API v1"
+    ],
+    "description": [
+      " Dokwa is an engineering company that provides a variety of technology products. The Dockwa OnWater API allows you to determine if a particular geographic point, in term of latitude and longitude parameters, is on water or land. The API conveys data in JSON format."
+    ],
+    "url": [
+      "https://onwater.io/"
+    ],
+    "category": [
+      "Geography",
+      "Location",
+      "Marine",
+      "Water"
+    ],
+    "provider": [],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "https://onwater.io/"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://api.onwater.io/api/v1/"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Harwich Haven Authority RPC API"
+    ],
+    "description": [
+      " Harwich Haven Authority (HHA), an organization based in the UK, is tasked with safeguarding the best natural haven on the east coast of England. Its jurisdiction covers the River Stour, the lower part of the River Orwell, Harwich Harbour and an area to seaward extending 12 nautical miles from the harbor entrance and covering 150 square miles.\nThe HHA provides services for shipping using the commercial ports of Felixstowe, Ipswich, Harwich International, Harwich Navyard and Mistley and also boarding and landing services for the rivers Thames, Medway, Blackwater, Colne and Crouch. The HHA provides a web service that lets users access the data kept by the organization. Data includes anchored ships, arrivals, forecasts, tides, traffic and more. The API uses SOAP protocol and responses are formatted in XML."
+    ],
+    "url": [
+      "http://apps.hha.co.uk/mis/api.asmx"
+    ],
+    "category": [
+      "Shipping",
+      "Marine"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [
+      "http://apps.hha.co.uk/mis/api.asmx"
+    ],
+    "architecturalStyle": [
+      "RPC"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "WSDOT Traveler Information Toll REST API"
+    ],
+    "description": [
+      " This API allows you access to WSDOT Tolling data. This includes; current toll rates for high occupancy lanes, get information for the HOV toll lanes and more. The Washington State Department of Transportation is the steward of a multimodal transportation system and responsible for ensuring that people and goods move safely and efficiently. In addition to building, maintaining, and operating the state highway system, WSDOT is responsible for the state ferry system, and works in partnership with others to maintain and improve local roads, railroads and airports, as well as to support alternatives to driving, such as public transportation, bicycles and pedestrian programs."
+    ],
+    "url": [
+      "http://wsdot.wa.gov/traffic/api/Documentation/class_traveler_a_p_i_1_1_controlle\u2026"
+    ],
+    "category": [
+      "Transportation",
+      "Data",
+      "Marine",
+      "Travel",
+      "Weather"
+    ],
+    "provider": [
+      "WSDOT"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "http://wsdot.wa.gov/traffic/api/Documentation/index.html"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "http://wsdot.wa.gov/traffic/api/api/tolling"
+    ],
+    "sslSupprt": [
+      "No"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "WSDOT Traveler Information WSF Schedule REST API"
+    ],
+    "description": [
+      " The WSDOT Traveler API's provides a single gateway to all of WSDOT's data. The Washington State Ferry Schedule data service includes; planned departures, adjustments, contingencies and more. The Washington State Department of Transportation is the steward of a multimodal transportation system and responsible for ensuring that people and goods move safely and efficiently. In addition to building, maintaining, and operating the state highway system, WSDOT is responsible for the state ferry system, and works in partnership with others to maintain and improve local roads, railroads and airports, as well as to support alternatives to driving, such as public transportation, bicycles and pedestrian programs."
+    ],
+    "url": [
+      "http://www.wsdot.wa.gov/ferries/api/schedule/documentation/"
+    ],
+    "category": [
+      "Transportation",
+      "Data",
+      "Marine",
+      "Travel"
+    ],
+    "provider": [
+      "WSDOT"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "http://wsdot.wa.gov/traffic/api/Documentation/index.html"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "http://www.wsdot.wa.gov/Ferries/API/Schedule/rest/help"
+    ],
+    "sslSupprt": [
+      "No"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "California Coastal Commission Cleanup Day REST API v1"
+    ],
+    "description": [
+      " The California Coastal Commission Cleanup Day is available with GET requests that display JSON format in return. It provides data on over 900 beaches and waterways where people contribute to the state's largest volunteer event. Each location includes attributes that define the characteristics of that cleanup location, such as organizer contact information and what to bring."
+    ],
+    "url": [
+      "https://www.coastal.ca.gov/open-data/api-docs/"
+    ],
+    "category": [
+      "Marine",
+      "Environment"
+    ],
+    "provider": [
+      "State of California"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "https://www.coastal.ca.gov/open-data/api-docs/"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://api.coastal.ca.gov/ccd/v1/locations"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Smart Sea Level Sensors REST API v1.0"
+    ],
+    "description": [
+      " This API provides an easy way to retrieve measurements and metadata from sea level sensors deployed in Chatham County, GA. The API is built according to the OGC SensorThings API standard, which provides a unified way to retrieve measurements from IoT sensor systems. Retrieve data about all sensors, specific sensors, measurements from specific sensors, and measurements within start and end dates with this API"
+    ],
+    "url": [
+      "https://www.sealevelsensors.org/data-packages/"
+    ],
+    "category": [
+      "Internet of Things",
+      "Marine",
+      "Sustainability",
+      "Water"
+    ],
+    "provider": [
+      "Georgia Tech"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "https://dev.sealevelsensors.org/"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://api.sealevelsensors.org/v1.0/"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "SeaVision REST API v1"
+    ],
+    "description": [
+      " The U.S. Department of Transportation's SeaVision offers maritime situational awareness tools and web-based unclassified maritime information sharing in order to increase maritime security and build partnerships within the maritime community. The SeaVision Public API supports ingesting data into SeaVision and sharing data with external systems. API returns vessel data, incidents, vessel history and more."
+    ],
+    "url": [
+      "https://info.seavision.volpe.dot.gov/node/131"
+    ],
+    "category": [
+      "Marine",
+      "Boating",
+      "Security"
+    ],
+    "provider": [
+      "U.S. Department of Transportation"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "https://info.seavision.volpe.dot.gov/node/131"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://api.seavision.volpe.dot.gov/v1/"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "California Coastal Commission Locations REST API v1"
+    ],
+    "description": [
+      " The California Coastal Commission Locations API returns JSON data after making GET requests. It provides data on over 1500 public beaches spanning all 15 coastal counties. Each location includes attributes that define the characteristics of that beach, such as dog friendliness and wheelchair accessible."
+    ],
+    "url": [
+      "https://www.coastal.ca.gov/open-data/api-docs/"
+    ],
+    "category": [
+      "Marine"
+    ],
+    "provider": [
+      "State of California"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "https://www.coastal.ca.gov/open-data/api-docs/"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://api.coastal.ca.gov/access/v1/locations"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Aquaplot REST API v1"
+    ],
+    "description": [
+      " Aquaplot offers sea routing functionality and distance computation for ships. Developers can build integrations related to route planning, route optimization, fleet maneuver planning, and traffic monitoring. The Aquaplot API allows developers to retrieve the distance between 2 coordinates in water. The database contains 3,500 ports. This API uses JSON for responses, and GeoJSON will be available in the near future."
+    ],
+    "url": [
+      "http://doc.aquaplot.com/"
+    ],
+    "category": [
+      "Optimization",
+      "Algorithms",
+      "Analytics",
+      "Developers",
+      "Intelligence",
+      "Logistics",
+      "Mapping",
+      "Marine",
+      "Optimization",
+      "Shipping"
+    ],
+    "provider": [
+      "Gestalt Systems"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://api.aquaplot.com/v1"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "iNaturalist REST API"
+    ],
+    "description": [
+      " The iNaturalist API allows developers to integrate wildlife sighting data into their applications. iNaturalist.org is a website that allows naturalists, scientists, and citizens to record, share, and discuss their wildlife observations with others. iNaturalist hosts more than 28 million observations of more than 80,000 species around the world. iNaturalist is a joint initiative of the California Academy of Sciences and the National Geographic Society."
+    ],
+    "url": [
+      "http://api.inaturalist.org/v1/docs/"
+    ],
+    "category": [
+      "Environment",
+      "Animals",
+      "Marine",
+      "Science"
+    ],
+    "provider": [
+      "iNaturalist"
+    ],
+    "serviceType": [],
+    "documentation": [
+      "http://api.inaturalist.org/v1/docs/"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [
+      "No"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Navarik Inspection RPC API v1.7"
+    ],
+    "description": [
+      " The Navarik Inspection API allows oil companies and inspection vendors to submit and retrieve data from the Navarik Inspection web service. This includes; Invoicing, Nominations, Time Logs, Utilities and more. Navarik provides physical operations software and data services for the commodity trading industry."
+    ],
+    "url": [
+      "https://navarik-insp.readme.io/docs"
+    ],
+    "category": [
+      "Data-as-a-Service",
+      "Energy",
+      "Marine",
+      "Shipping"
+    ],
+    "provider": [
+      "Navarik"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [],
+    "architecturalStyle": [
+      "RPC"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "NOAA ERDDAP REST API"
+    ],
+    "description": [
+      " This data service provides a combined interface to access and download scientific datasets and subsets on oceanography in common file formats. Typical uses involve charting and mapping. ERDDAP presents a single format for accessing multiple repositories, which the service reformats to interact with the remote server hosting the desired data.\nAPI methods support retrieving a list of available resource URLs, resource categories, and datasets, as well as metadata describing those resources. Methods also allow both full-text and advanced search against the datasets."
+    ],
+    "url": [
+      "http://coastwatch.pfeg.noaa.gov/erddap/rest.html"
+    ],
+    "category": [
+      "Science",
+      "Data",
+      "Marine",
+      "Open Data"
+    ],
+    "provider": [
+      "NOAA"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "http://coastwatch.pfeg.noaa.gov/erddap/rest.html"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "http://coastwatch.pfeg.noaa.gov/erddap/search/"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Boats Group Inventory REST API"
+    ],
+    "description": [
+      " The Boats Group Inventory API provides detailed boating related information. This interface supports methods to perform searches, and access resources in several standard units of length and currencies. This information is provided in JSON, XML or PLIST format. API Keys are required to authenticate. Boats Group is a recreational marine industry service that operates Boat Trader, YachtWorld, boats.com, Cosas De Barcos, and YachtCloser."
+    ],
+    "url": [
+      "http://api.boats.com/docs/services/details?s=inventory"
+    ],
+    "category": [
+      "Boating",
+      "Data",
+      "Directories",
+      "Marine",
+      "Marketplace"
+    ],
+    "provider": [
+      "Boats Group"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "http://api.boats.com/docs/services/details"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "http://api.boats.com/"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Searoutes REST API v1.0.0"
+    ],
+    "description": [
+      " The searoutes.com API is a route optimization system that delivers GeoJSON data for routing on the water. The API supports street/ocean routing for inter-modal supply chains, fuel consumption, voyage weather, and piracy zones which can be avoided and displayed during mapping. Canals and inland rivers can also be used. API Keys are required for authentication."
+    ],
+    "url": [
+      "https://discover.searoutes.com/api/"
+    ],
+    "category": [
+      "Marine",
+      "Shipping",
+      "Weather"
+    ],
+    "provider": [
+      "searoutes"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "https://discover.searoutes.com/wp-includes/swagger-ui"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://api.searoutes.com/"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "National Maritime Museum REST API"
+    ],
+    "description": [
+      " The National Maritime Museum (NMM) in Greenwich, England, is the leading maritime museum in the world, with a collection of over 2 million items related to seafaring, navigation and astronomy. NMM provides an online collection of catalogue records and images. Access to the online catalog is also available through an API.\nThe API uses SOLR for queries."
+    ],
+    "url": [
+      "http://collections.rmg.co.uk/page/76fd680cdfa46b8848f3a719e15a6772.html"
+    ],
+    "category": [
+      "Education",
+      "Catalogs",
+      "Collecting",
+      "Marine",
+      "Museums",
+      "Photos"
+    ],
+    "provider": [],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "http://collections.rmg.co.uk/page/76fd680cdfa46b8848f3a719e15a6772.html"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "http://collections.nmm.ac.uk/solr"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Divesites REST API"
+    ],
+    "description": [
+      " The Divesites API returns database information for scuba divers including location, weather, latitude & longitude, map, and tide stations. The API supports POST and GET methods, JSON and AJAX formats. Divesites API determines the location using Geo IP location and return sites in a radius from that point."
+    ],
+    "url": [
+      "http://api.divesites.com/docs/"
+    ],
+    "category": [
+      "Recreation",
+      "Database",
+      "Location",
+      "Marine",
+      "Sports",
+      "Water",
+      "Weather"
+    ],
+    "provider": [
+      "Divesites"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "http://api.divesites.com/docs/"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "http://api.divesites.com"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Storm Glass REST API"
+    ],
+    "description": [
+      " The Storm Glass API gives developers access to global marine weather data from multiple sources using a single REST API.\nThe API returns marine weather forecasts for the next 7 days in hourly resolution. Forecasts include swell height, swell direction, swell period, wave height, wave direction, wave period, wind speed, wind direction, and air temperature."
+    ],
+    "url": [
+      "https://stormglass.io/"
+    ],
+    "category": [
+      "Marine",
+      "Weather"
+    ],
+    "provider": [
+      "Storm Glass"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "https://stormglass.io/"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://api.stormglass.io/"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "British Antarctic Survey Meteorology Data / SOSMET REST API"
+    ],
+    "description": [
+      " The British Antarctic Survey Meteorology Data / SOSMET API allows developers to retrieve data from the SOS Meteorological Data Service.\nThe British Antarctic Survey APIs provide access to scientific data, metadata, and website information. These services are still under development, and developers may need to contact the BAS Information Services team for access to private repositories."
+    ],
+    "url": [
+      "https://api.bas.ac.uk/meteorology/v1/"
+    ],
+    "category": [
+      "Marine",
+      "England",
+      "Environment",
+      "Science",
+      "Weather"
+    ],
+    "provider": [
+      "British Antarctic Survey"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "https://www.bas.ac.uk/api/"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Argos WebService RPC API"
+    ],
+    "description": [
+      " The service provides tracking and monitoring of locations on the earth's surface by satellite processing of signals from a transmitter, either at a fixed station or mounted on a vehicle or other mobile platform. Applications of the satellite monitoring services include observations of oceanic conditions, management of fishing grounds and activities, and monitoring wildlife habitats.\nAPI methods support retrieval of satellite and transmitter positions and processing of tracking data collected by the system. Methods supply locations of transmitters and sensor readings for conditions there along with estimates of error in readings and system diagnostics."
+    ],
+    "url": [
+      "http://www.argos-system.org/manual/index.html#6-data/61_overview.htm"
+    ],
+    "category": [
+      "Mapping",
+      "Environment",
+      "Fishing",
+      "Marine",
+      "Monitoring"
+    ],
+    "provider": [],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "http://www.argos-system.org/manual/index.html"
+    ],
+    "architecturalStyle": [
+      "RPC"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "British Antarctic Survey Job Vacancies REST API"
+    ],
+    "description": [
+      " The British Antarctic Survey Job Vacancies API allows developers to search for job vacancies by title.\nThe British Antarctic Survey APIs provide access to scientific data, metadata, and website information. These services are still under development, and developers may need to contact the BAS Information Services team for access to private repositories."
+    ],
+    "url": [
+      "https://www.bas.ac.uk/api/"
+    ],
+    "category": [
+      "Marine",
+      "England",
+      "Environment",
+      "Jobs",
+      "Science"
+    ],
+    "provider": [
+      "British Antarctic Survey"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "https://www.bas.ac.uk/api/"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "WSDOT Traveler Information WSF Vessels REST API"
+    ],
+    "description": [
+      " The WSDOT Traveler API's provides a single gateway to all of WSDOT's data. The Washington State Ferry Vessel data service includes; vessel attributes, locations and more. The Washington State Department of Transportation is the steward of a multimodal transportation system and responsible for ensuring that people and goods move safely and efficiently. In addition to building, maintaining, and operating the state highway system, WSDOT is responsible for the state ferry system, and works in partnership with others to maintain and improve local roads, railroads and airports, as well as to support alternatives to driving, such as public transportation, bicycles and pedestrian programs."
+    ],
+    "url": [
+      "http://www.wsdot.wa.gov/ferries/api/vessels/documentation/index.html"
+    ],
+    "category": [
+      "Transportation",
+      "Data",
+      "Marine",
+      "Travel"
+    ],
+    "provider": [
+      "WSDOT"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "http://wsdot.wa.gov/traffic/api/Documentation/index.html"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "http://www.wsdot.wa.gov/Ferries/API/Vessels/rest/help"
+    ],
+    "sslSupprt": [
+      "No"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "AISHub XML Webservice REST API"
+    ],
+    "description": [
+      " This API allows AISHub members to access the webservice and retrieve AISHub data in XML or JSON format. Some data forms that it returns are all AISHub data as XML ZIP file, all vessels in an area with boundaries as JSON file and all data for vessel with MMSI and includes; MMSI, Time, Longitude latitude and more. AIS vessel tracking develops navigation safety the. AIS tracking system was originally developed as a collision avoidance tool which enables commercial vessels to 'see' each other more clearly in any conditions and to improve the helmsman's information about the surrounding environment. AIS continuously transmits vessels' position, identity, speed and course, along with other relevant information, to all other AIS equipped vessels within range."
+    ],
+    "url": [
+      "http://www.aishub.net/xml-description-20.php"
+    ],
+    "category": [
+      "Marine",
+      "Location"
+    ],
+    "provider": [
+      "AISHub"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "http://www.aishub.net/aisdispatcher-description.php"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "http://data.aishub.net/ws.php"
+    ],
+    "sslSupprt": [
+      "No"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "WSDOT Traveler Information REST API"
+    ],
+    "description": [
+      " The Traveler Information API's allow you access to WSDOT data. This includes; Border Crossings, Highway Alerts, Mountain Pass Conditions and more. The Washington State Department of Transportation is the steward of a multimodal transportation system and responsible for ensuring that people and goods move safely and efficiently. In addition to building, maintaining, and operating the state highway system, WSDOT is responsible for the state ferry system, and works in partnership with others to maintain and improve local roads, railroads and airports, as well as to support alternatives to driving, such as public transportation, bicycles and pedestrian programs."
+    ],
+    "url": [
+      "http://wsdot.wa.gov/traffic/api/"
+    ],
+    "category": [
+      "Transportation",
+      "Data",
+      "Marine",
+      "Travel",
+      "Weather"
+    ],
+    "provider": [
+      "WSDOT"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "http://wsdot.wa.gov/traffic/api/Documentation/index.html"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "http://wsdot.wa.gov/traffic/api/"
+    ],
+    "sslSupprt": [
+      "No"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "World Tides REST API"
+    ],
+    "description": [
+      " Use the World Tides API to retrieve tidal information for anywhere in the world. World Tides API accepts calls via GET or POST, returns data in JSON, and supports both HTTP/HTTPS. Developers will receive an API Key for authentication after registering with World Tides. The API will return information on: the coordinates of the closest point where tidal information is available, the height of tides at a given time, or tidal data so that users can calculate tide heights at a given time. See World Tides API documentation for more information and code examples."
+    ],
+    "url": [
+      "World Tides"
+    ],
+    "category": [
+      "Marine",
+      "Data-as-a-Service",
+      "Geography",
+      "Marine",
+      "Time",
+      "Water"
+    ],
+    "provider": [
+      "Brainware"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "http://www.worldtides.info/apidocs"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://www.worldtides.info/api"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Broadcastify Live Audio Feed Catalog REST API"
+    ],
+    "description": [
+      " Broadcastify a radio communication platform that specializes in streaming live audio for public safety, aircraft, rail, and marine related communications. Live Audio Feed Catalog API is part of the Broadcastify API systems, when integrated in applications, developers can use it to request for live feeds from the Broadcastify catalog. Outputs for this API are in XML and JSON formats."
+    ],
+    "url": [
+      "Live Audio Feed Catalog API"
+    ],
+    "category": [
+      "Streaming",
+      "Air Travel",
+      "Audio",
+      "Feeds",
+      "Marine",
+      "Safety",
+      "Transportation"
+    ],
+    "provider": [
+      "Zendesk"
+    ],
+    "serviceType": [],
+    "documentation": [
+      "https://broadcastify.zendesk.com/entries/22579268-Live-Audio-Feed-Catalog-API-v-1-3-Documentation"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://api.broadcastify.com/audio/"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Seametrix REST API v1.2"
+    ],
+    "description": [
+      " Seametrix API provides a REST API with sea distances and sea routing between ports and waypoints and comes along with a complete database of sea and inland ports and terminals across the globe."
+    ],
+    "url": [
+      "https://seametrix.net/sea-distances-api/"
+    ],
+    "category": [
+      "Shipping",
+      "Boating",
+      "Logistics",
+      "Marine",
+      "Shipping",
+      "Software-as-a-Service",
+      "Transportation",
+      "Travel"
+    ],
+    "provider": [
+      "Seametrix"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Marine/Surfing Weather REST API"
+    ],
+    "description": [
+      " The Free Marine Weather REST API methods allows developers and programmers to access today's live marine and sailing weather forecast. You can use any programming language of your choice to get marine weather using our REST based weather API methods."
+    ],
+    "url": [
+      "http://www.worldweatheronline.com/free-marine-weather-feed.aspx"
+    ],
+    "category": [
+      "Weather",
+      "Marine",
+      "API"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [
+      "http://www.worldweatheronline.com/free-marine-weather-feed.aspx"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "BODC NERC Vocabulary Server RPC API"
+    ],
+    "description": [
+      " The British Oceanographic Data Centre (BODC) is a national facility for maintaining and distributing data concerning the marine environment. It provides several web services for implementing this data, including the NERC Vocabulary Server. The Vocabulary Server provides access to lists of standard terms used for oceanographic metadata, including descriptions of data, platforms, instruments, and geographic locations.\nUsing standardized sets of terms solves the problem of ambiguities associated with data markup and also enables records to be interpreted by computers. This opens up possibilities for computer aided manipulation, distribution, and long-term reuse. The BODC NERC Vocabulary Server can be accessed programmatically using SOAP calls issued in XML format."
+    ],
+    "url": [
+      "http://www.bodc.ac.uk/products/web_services/vocab/"
+    ],
+    "category": [
+      "Science",
+      "Marine",
+      "England",
+      "Semantics"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [
+      "http://www.bodc.ac.uk/products/web_services/vocab/"
+    ],
+    "architecturalStyle": [
+      "RPC"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Deep Voyage RPC API"
+    ],
+    "description": [
+      " Deep Voyage is an Egyptian dive operation, created and run by experienced divers. Divers will travel on the ship, Liberty, which has a maximum speed of 12 knots, a spacious dive deck, and fully air conditioned cabins. The Deep Voyage API allows users to send booking requests and subscribe or unsubscribe from the Deep Voyage mailing list."
+    ],
+    "url": [
+      "http://www.deepvoyage.com/WebService.asmx?"
+    ],
+    "category": [
+      "Travel",
+      "Marine"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [
+      "http://www.deepvoyage.com/WebService.asmx"
+    ],
+    "architecturalStyle": [
+      "RPC"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "WSDOT Traveler Information WSF Fares REST API"
+    ],
+    "description": [
+      " The WSDOT Traveler API's provides a single gateway to all of WSDOT's data. The Washington State Ferry Fare data service includes; ticket costs, categories, totals and more. The Washington State Department of Transportation is the steward of a multimodal transportation system and responsible for ensuring that people and goods move safely and efficiently. In addition to building, maintaining, and operating the state highway system, WSDOT is responsible for the state ferry system, and works in partnership with others to maintain and improve local roads, railroads and airports, as well as to support alternatives to driving, such as public transportation, bicycles and pedestrian programs."
+    ],
+    "url": [
+      "http://www.wsdot.wa.gov/ferries/api/fares/documentation/rest.html"
+    ],
+    "category": [
+      "Transportation",
+      "Data",
+      "Marine",
+      "Travel",
+      "Weather"
+    ],
+    "provider": [
+      "WSDOT"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "http://wsdot.wa.gov/traffic/api/Documentation/index.html"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "http://www.wsdot.wa.gov/Ferries/API/Fares/rest"
+    ],
+    "sslSupprt": [
+      "No"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "IOOS SOS REST API"
+    ],
+    "description": [
+      " This API is the CO-OPS Implementation of IOOS (Integrated Ocean Observation System) SOS (Sensor Observation Service). IOOS is an online tool that allows users to access information on oceanic, coastal, and Great Lakes environments collected from sources that can include NOAA and other federal agencies, the IOOS Regional Associations, and potentially other national or international organizations.\nWith the IOOS SOS API, users can retrieve data on currents, water levels (preliminary, verified, and predicted), meteorology, water conditions, wave harmonics, sensors, and stations via HTTP GET/POST."
+    ],
+    "url": [
+      "http://opendap.co-ops.nos.noaa.gov/ioos-dif-sos/"
+    ],
+    "category": [
+      "Science",
+      "Marine",
+      "Weather"
+    ],
+    "provider": [
+      "NOAA"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "http://opendap.co-ops.nos.noaa.gov/ioos-dif-sos/"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://opendap.co-ops.nos.noaa.gov/ioos-dif-sos/SOS"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "World Weather Online Marine, Sailing, Surfing Weather REST API"
+    ],
+    "description": [
+      " The World Weather Online Marine, Sailing, Surfing Weather API integrates forecast data into web services and mobile applications. XML, JSON, and REST are available as protocols to make callbacks."
+    ],
+    "url": [
+      "MARINE, SAILING AND SURFING WEATHER API"
+    ],
+    "category": [
+      "Weather",
+      "Marine",
+      "Predictions"
+    ],
+    "provider": [
+      "World Weather Online"
+    ],
+    "serviceType": [],
+    "documentation": [
+      "http://developer.worldweatheronline.com/api/docs/marine-weather-api.aspx"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "http://us.worldweatheronline.com/"
+    ],
+    "sslSupprt": [
+      "No"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Magic Seaweed Forecast REST API"
+    ],
+    "description": [
+      " The Magic Seaweed Forecast API allows access to core marine weather data for creative and interesting projects that support developers and surfers. The API requires a valid API key and follows Restful convention to query for information that retrieves a JSON array of data representing the forecast.\nThe Magic Seaweed Forecast service provides access to core weather and ocean open data, whose purpose is specifically for surfers and surfing but is also useful for a huge range of activities. Magic Seaweed supports global surf forecasting and news service."
+    ],
+    "url": [
+      "https://magicseaweed.com/developer/forecast-api"
+    ],
+    "category": [
+      "Sports",
+      "Marine",
+      "Open Data",
+      "Water",
+      "Weather"
+    ],
+    "provider": [
+      "Magic Seaweed"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "https://magicseaweed.com/docs"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "http://magicseaweed.com/api"
+    ],
+    "sslSupprt": [
+      "No"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "British Antarctic Survey Marine Vessel Live Position REST API"
+    ],
+    "description": [
+      " The British Antarctic Survey Marine Vessel Live Position API allows developers to retrieve vessel positions by call sign.\nThe British Antarctic Survey APIs provide access to scientific data, metadata, and website information. These services are still under development, and developers may need to contact the BAS Information Services team for access to private repositories."
+    ],
+    "url": [
+      "https://www.bas.ac.uk/api/"
+    ],
+    "category": [
+      "Marine",
+      "England",
+      "Environment",
+      "Location",
+      "Science"
+    ],
+    "provider": [
+      "British Antarctic Survey"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "https://www.bas.ac.uk/api/"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "BODC Marsden Square Translator Service RPC API"
+    ],
+    "description": [
+      " The British Oceanographic Data Centre (BODC) is a national facility for maintaining and distributing data concerning the marine environment. They provide several web services for implementing this data, including the Marsden Square Translator Service, which is accessible using SOAP calls. Data is returned in XML format.\nMarsden Squares are a tool for expressing spatial coordinates by dividing the Earth's surface into indexed squares. They are used primarily for identifying the geographic position of meteorological and oceanographic data. The BODC Marsden Square Translator Service allows users to input a list of Marsden Square references and calculate the geographical coordinates of the rectangular bounding box enclosing them."
+    ],
+    "url": [
+      "http://www.bodc.ac.uk/products/web_services/msq2cov/"
+    ],
+    "category": [
+      "Mapping",
+      "Marine",
+      "England"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [
+      "http://www.bodc.ac.uk/products/web_services/msq2cov/"
+    ],
+    "architecturalStyle": [
+      "RPC"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "CO-OPS RPC API"
+    ],
+    "description": [
+      " As part of NOAA, CO-OPS (Center for Operational Oceanographic Products and Services) monitors, assesses, and distributes information relating to tides, currents, water levels, and other coastal oceanographic indicators. CO-OPS provides several SOAP APIs that return information on water levels, tides, currents, harmonics, station metadata, and meteorology for locations along the U.S. coast."
+    ],
+    "url": [
+      "http://opendap.co-ops.nos.noaa.gov/"
+    ],
+    "category": [
+      "Science",
+      "Marine"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [
+      "http://opendap.co-ops.nos.noaa.gov/"
+    ],
+    "architecturalStyle": [
+      "RPC"
+    ],
+    "endpointUrl": [
+      "http://opendap.co-ops.nos.noaa.gov/axis/webservices/waterlevelrawsixmin/wsdl"
+    ],
+    "sslSupprt": [],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "NA-ARC REST API"
+    ],
+    "description": [
+      " The global Argo array is made of about 3,000 free-drifting floats measuring temperature and salinity (along with possibly other parameters such as oxygen) of the upper ocean.\nThe North Atlantic Argo Regional Center (NA-ARC) focuses on profiles located in North Atlantic Ocean North of 20S, in the Mediterranean and Arctic Seas. The NA-ARC web API provides a set of services with many functions to retrieve information about Argo profiles and floats in the North Atlantic Ocean. Those information are based or computed from the NA-ARC database updated daily. The API uses RESTful calls and responses are formatted in JSON."
+    ],
+    "url": [
+      "http://www.ifremer.fr/lpo/naarc/m/"
+    ],
+    "category": [
+      "Social",
+      "French",
+      "Marine",
+      "Science"
+    ],
+    "provider": [],
+    "serviceType": [],
+    "documentation": [
+      "http://www.ifremer.fr/lpo/naarc/m/"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Amentum Atmosphere REST API v1.1.1"
+    ],
+    "description": [
+      " Instantly access empirical models of atmospheric density and composition that are recommended by the Committee on Space Research (COSPAR) for satellite drag calculations.\nAPI requests must contain a key \"API-Key\" in the header (see code samples). Obtain a key from https://developer.amentum.io\nThe NRLMSISE-00 model was developed by the US Naval Research Laboratory. It is based on mass spectrometry and incoherent radar scatter data, includes drag and accelerometer data, and accounts for anomalous oxygen at high altitudes. It is recommended by the International Committee on Space Resarch (COSPAR) as the standard for atmospheric composition.\nThe API now automatically updates the Ap and F10.7 cm radio flux indices unless provided by the user.\nThe JB2008 (Jacchia-Bowman) model is a newer model developed by Space Environment Technologies and the US Air Force Space Command. The model accounts for various phenomena related to EUV heating of the thermosphere and uses the DST index as the driver of global density changes. The model is complementary to the NRLMSISE00 model and is more accurate during times of high solar activity and geomagnetic storms. It is recommended by COSPAR as the standard for thermospheric density in satellite drag calculations.\nThe API now automatically updates the indices needed to account for global density variations due to geomagnetic storms and EUV heating."
+    ],
+    "url": [
+      "https://amentum.space/atmosphere"
+    ],
+    "category": [
+      "Science",
+      "Satellites",
+      "Science"
+    ],
+    "provider": [
+      "Amentum"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "https://atmosphere.amentum.space"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://atmosphere.amentum.io"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Great Circle Forecast REST API v1"
+    ],
+    "description": [
+      " The Great Circle Forecast API provides weather forecasts primarily for sailing races. Data returned includes wind, pressure, temperature, precipitations, sea currents, etc. for a specified location. These forecasts can be computed for every location on the planet, with time interval varying from 1 minute to 3 hours and up to a horizon of 7 days into the future. Great Circle-Squid is a world-leading provider of marine weather services, both for race management and sailors (skippers and navigators)."
+    ],
+    "url": [
+      "https://front-remora.greatcircle.be/forecast"
+    ],
+    "category": [
+      "Weather",
+      "Boating",
+      "Marine"
+    ],
+    "provider": [
+      "Great Circle-Squid"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "https://www.squid-sailing.com/doc-api/forecast/description.html"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://front-remora.greatcircle.be/forecast"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "California Coastal Commission Sea Level Rise Vulnerability REST API v1"
+    ],
+    "description": [
+      " The California Coastal Commission Sea Level Rise Vulnerability API provides data on how rising seas put coastal resources in all 15 coastal counties at risk. Each county includes attributes such as economics, infrastructure, and public access.\nThe API eeturns JSON data by making GET requests, displaying counties and their respective SLR vulnerability synthesis."
+    ],
+    "url": [
+      "https://www.coastal.ca.gov/open-data/api-docs/"
+    ],
+    "category": [
+      "Marine",
+      "Environment"
+    ],
+    "provider": [
+      "State of California"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "https://www.coastal.ca.gov/open-data/api-docs/"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [
+      "https://api.coastal.ca.gov/vulnerability/v1/counties"
+    ],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  },
+  {
+    "name": [
+      "Stormglass REST API"
+    ],
+    "description": [
+      " The Storm Glass Marine Weather API allows fetching forecasts for any coordinate using conventional HTTP requests. When a request is successful, a response will be sent back in the form of a JSON object. API Key is required to authenticate."
+    ],
+    "url": [
+      "https://docs.stormglass.io/"
+    ],
+    "category": [
+      "Weather",
+      "Marine"
+    ],
+    "provider": [
+      "Stormglass"
+    ],
+    "serviceType": [
+      "Web/Internet"
+    ],
+    "documentation": [
+      "https://docs.stormglass.io/"
+    ],
+    "architecturalStyle": [
+      "REST"
+    ],
+    "endpointUrl": [],
+    "sslSupprt": [
+      "Yes"
+    ],
+    "logo": [
+      "https://www.programmableweb.com/sites/all/modules/contrib/lazyloader/image_placeholder.gif"
+    ]
+  }
+]
