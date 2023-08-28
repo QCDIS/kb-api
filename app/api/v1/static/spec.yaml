@@ -1,0 +1,167 @@
+openapi: 3.0.0
+servers:
+  - url: ../api/v1/
+info:
+  description: ENVRI knowledge base search engine API
+  version: "1.0.0"
+  title: Search engine API
+  license:
+    name: Apache 2.0
+    url: 'https://www.apache.org/licenses/LICENSE-2.0.html'
+tags:
+  - name: public
+    description: Operations available to everyone
+paths:
+  /search:
+    get:
+      tags:
+        - public
+      summary: search everything
+      operationId: searchAll
+      description: >
+        Search for all kinds of resources
+        (web pages, APIs, datasets, and notebooks)
+      parameters:
+        - $ref: '#/components/parameters/q'
+        - $ref: '#/components/parameters/skip'
+        - $ref: '#/components/parameters/limit'
+      responses:
+        '200':
+          description: search results matching criteria
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/SearchResult'
+        '400':
+          description: bad input parameter
+  /search/{resource_type}:
+    get:
+      tags:
+        - public
+      summary: search specific resource types
+      operationId: searchSegment
+      description: Search for a specific kind of resource
+      parameters:
+        - $ref: '#/components/parameters/resource_type'
+        - $ref: '#/components/parameters/q'
+        - $ref: '#/components/parameters/skip'
+        - $ref: '#/components/parameters/limit'
+      responses:
+        '200':
+          description: search results matching criteria
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/SearchResult'
+        '400':
+          description: bad input parameter
+        '404':
+          description: bad resource type
+components:
+  parameters:
+    resource_type:
+      in: path
+      name: resource_type
+      description: |
+        type of the resource:
+        - `web_pages`: web pages from the ENVRI RIs
+        - `apis`: APIs (demonstration)
+        - `datasets`: datasets from ENVRI RIs catalogues
+        - `notebooks`: Jupyter notebooks relevant to the ENVRI topics
+      required: true
+      schema:
+        type: string
+        enum:
+          - web_pages
+          - apis
+          - datasets
+          - notebooks
+    q:
+      in: query
+      name: q
+      description: search term
+      required: false
+      schema:
+        type: string
+      example:
+        Plankton
+    skip:
+      in: query
+      name: skip
+      description: number of records to skip for pagination
+      schema:
+        type: integer
+        minimum: 0
+        default: 0
+    limit:
+      in: query
+      name: limit
+      description: maximum number of records to return
+      schema:
+        type: integer
+        minimum: 0
+        maximum: 100
+        default: 10
+  schemas:
+    SearchResult:
+      type: object
+      required:
+        - resource_type
+        - title
+        - description
+        - url
+        - details
+      properties:
+        resource_type:
+          type: string
+          enum:
+            - web_pages
+            - apis
+            - datasets
+            - notebooks
+        title:
+          type: string
+          nullable: true
+          example: Sample record title
+        description:
+          type: string
+          nullable: true
+          example: Sample record description
+        url:
+          type: string
+          nullable: true
+          example: https://example.org
+        details:
+          type: object
+          anyOf:
+            - $ref: '#/components/schemas/DetailsWebPages'
+            - $ref: '#/components/schemas/DetailsApis'
+            - $ref: '#/components/schemas/DetailsDatasets'
+            - $ref: '#/components/schemas/DetailsNotebooks'
+    DetailsWebPages:
+      type: object
+      properties:
+        research_infrastructure:
+          type: string
+          nullable: true
+          example: LifeWatch ERIC
+    DetailsApis:
+      type: object
+    DetailsDatasets:
+      type: object
+      properties:
+        repository:
+          type: string
+          nullable: true
+          example: SeaDataNet CDI
+    DetailsNotebooks:
+      type: object
+      properties:
+        repository:
+          type: string
+          nullable: true
+          example: GitHub
