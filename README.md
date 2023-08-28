@@ -17,6 +17,14 @@ Install npm packages:
 npm ci
 ```
 
+Setup pre-commit secret scanning ([doc](https://docs.gitguardian.com/ggshield-docs/integrations/git-hooks/pre-commit)):
+
+```shell
+pip install pre-commit ggshield
+pre-commit install
+ggshield auth login
+```
+
 ### Run development server
 
 Start Elasticsearch:
