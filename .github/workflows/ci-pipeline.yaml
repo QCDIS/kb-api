@@ -56,7 +56,7 @@ jobs:
             -e "discovery.type=single-node" \
             -e "ELASTIC_PASSWORD=elastic" \
             -e "xpack.security.http.ssl.enabled=false" \
-            --health-cmd 'curl -u elastic:changeme http://localhost:9200/_cat/health | grep -q green' \
+            --health-cmd 'curl -u elastic:elastic http://localhost:9200/_cat/health | grep -q green' \
             --health-interval 10s \
             docker.elastic.co/elasticsearch/elasticsearch:8.8.1
 
