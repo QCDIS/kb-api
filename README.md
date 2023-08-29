@@ -1,4 +1,24 @@
-# Knowledge base indexer
+# Knowledge base API
+
+## Docker image
+
+### Environment variables
+
+| Name                     | Description                                              | Required                  | Default value        |
+|--------------------------|----------------------------------------------------------|---------------------------|----------------------|
+| `ELASTICSEARCH_URL`      | URL of the Elasticsearch instance holding the KB indexes | Yes                       |                      |
+| `ELASTICSEARCH_USERNAME` | Elasticsearch username                                   | Yes                       |                      |
+| `ELASTICSEARCH_PASSWORD` | Elasticsearch password                                   | Yes                       |                      |
+| `BASE_PATH`              | Base path of the application                             | No                        | `""`                 |
+| `DEBUG`                  | Enable Django debug mode                                 | No                        | `False`              |
+| `SECRET_KEY`             | Django secret key                                        | Optional if `DEBUG==True` | Generated at runtime |
+
+### Ports
+
+| Port | Description |
+|------|-------------|
+| 8000 | HTTP        |
+
 
 ## Development environment
 
