@@ -1,6 +1,9 @@
+
 # Knowledge base API
 
 ## Docker image
+
+[![Build, test and publish container](https://github.com/QCDIS/kb-api/actions/workflows/build-test-publish.yaml/badge.svg)](https://github.com/QCDIS/kb-api/actions/workflows/build-test-publish.yaml)
 
 ### Environment variables
 
