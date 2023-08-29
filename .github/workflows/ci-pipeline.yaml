@@ -1,4 +1,4 @@
-name: Build, test and push container
+name: CI pipeline (configurable build, test, publish)
 
 on:
   workflow_call:
