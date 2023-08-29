@@ -38,6 +38,7 @@ jobs:
       - name: Start app
         run: |
           docker run -d \
+            --name app \
             -p 8000:8000 \
             --network testing \
             -e "ELASTICSEARCH_URL=http://es01:9200/" \
@@ -77,6 +78,13 @@ jobs:
       - name: Run API tests
         run: |
           npx portman --cliOptionsFile portman/portman-cli.yaml
+
+      - name: Print docker logs
+        if: ${{ failure() }}
+        run: |
+          docker logs app
+          echo "@@@@@@@@@@@@@@@@@@@@@@"
+          docker logs es01
 
       - name: Login to github Registry
         if: ${{ inputs.push }}
