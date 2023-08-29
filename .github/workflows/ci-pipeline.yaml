@@ -42,9 +42,7 @@ jobs:
             --network testing \
             -e "ELASTICSEARCH_URL=http://es01:9200/" \
             -e "ELASTICSEARCH_USERNAME=elastic" \
-            -e "ELASTICSEARCH_PASSWORD=changeme" \
-            -e "BASE_PATH=" \
-            -e "SECRET_KEY=secret" \
+            -e "ELASTICSEARCH_PASSWORD=elastic" \
             -e "DEBUG=true" \
             $TAG:latest
 
@@ -55,7 +53,7 @@ jobs:
             -p 9200:9200 \
             --network testing \
             -e "discovery.type=single-node" \
-            -e "ELASTIC_PASSWORD=changeme" \
+            -e "ELASTIC_PASSWORD=elastic" \
             -e "xpack.security.http.ssl.enabled=false" \
             --health-cmd 'curl -u elastic:changeme http://localhost:9200/_cat/health | grep -q green' \
             --health-interval 10s \
