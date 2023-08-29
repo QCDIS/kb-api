@@ -9,7 +9,7 @@ jobs:
   build-test-push:
     uses: ./.github/workflows/ci-pipeline.yaml
     with:
-      docker_folder: .
+      docker_folder: app/
       tag: kb-api
       push: false
     secrets:
