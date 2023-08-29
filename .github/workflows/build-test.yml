@@ -1,0 +1,17 @@
+name: Build and test container
+on:
+  pull_request:
+  push:
+  schedule:
+    - cron: '0 0 5 * *'
+
+jobs:
+  build-test-push:
+    uses: ./.github/workflows/ci-pipeline.yaml
+    with:
+      docker_folder: .
+      tag: kb-api
+      push: false
+    secrets:
+      docker_username: ${{ secrets.DOCKERHUB_USERNAME }}
+      docker_password: ${{ secrets.DOCKERHUB_PASSWORD }}
